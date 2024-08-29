@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
 
 </head>
 <body>
@@ -18,17 +19,46 @@
         </div>
 
         <div class="list">
-            <span>Contact</span>
-            <span>Sobre Mim</span>
+            <a href="#projects"><span>Projetos</span></a>
+            <span>Contato</span>
         </div>
     </header>
 
     <section class="first-section">
         <div class="paragraph-1">
-            <p>Desenvolvedor Web / UI/UX, com ênfase na criação e design de sites com a utilização das linguagens HTML5, CSS3, JavaScript, React, Angular, TypeScript, Python e Node.js. Também utilizo o Figma para criação e layouts de elementos nos projetos, fico a disposição de mais perguntas.</p>
+            <h3>Apresentação</h3>
+            <p>Desenvolvedor Web / UI/UX, com ênfase na criação e design de sites com a utilização das linguagens HTML5, CSS3, JavaScript, React, Angular, TypeScript, Python e Node.js. Também utilizo o Figma para criação e layouts de elementos nos projetos. Atualmente cursando o penúltimo semestre em Análise e Desenvolvimento de Sistemas na Universidade Cruzeiro do Sul - UNICSUL.</p>
         </div>
 
+    </section>
+    
+    <section>
+       
+        <div id="projects">
+            <h2>Projetos</h2>
+        </div>
 
+       <div class="project-1">
+            <h3>Projeto Trampo</h3>
+            <p>Projeto desenvolvido com 6 alunos da turma de Análise e Desenvolvimento de Sistemas onde atuei na criação das páginas, design e responsividade. Voltado para facilitar a contratação de funcionários autônomos no mercado criamos o Projeto Trampo, onde na plataforma poderiam ser inseridos os dados(Nome, Celular, E-mail, Imagens dos serviços feitos anteriormente pelos prestadores, valores e etc..), troca de mensagens, e formas de facilitar a vista e o entendimento do cliente gerando confiança no prestador autônomo.</p>
+       
+            <div class="carousel-project1">
+                <div class="carousel-view">
+                    <button id="prev-btn" class="prev-btn">&#8592;</button>
+                    
+                    <div id="item-list" class="item-list">
+                        <img id="item" class="item" src="img/trampo1.png" alt="Página Inicial">
+                        <img id="item" class="item" src="img/trampo2.png" alt="Página Inicial parte de baixo">
+                        <img id="item" class="item" src="img/trampo3.png" alt="">
+                        <img id="item" class="item" src="img/trampo4.png" alt="">
+                        <img id="item" class="item" src="img/trampo5.png" alt="">
+                    </div>
+                    
+                    <button id="next-btn" class="next-btn">&#8594;</button>
+                </div>
+            </div>
+        </div>
+               
     </section>
 </body>
 </html>

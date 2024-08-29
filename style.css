@@ -8,7 +8,6 @@
 
 header {
     display: flex;
-    width: 100vw;
     height: 120px;
     align-items: center;
     background-color: rgb(4, 74, 77);
@@ -22,7 +21,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 2vw;
+    margin-left: 5vw;
     margin-right: 65vw;
     font-size: 20px;
     font-family: "Kanit";
@@ -40,25 +39,152 @@ span {
     cursor: pointer;
 }
 
+.list>a {
+    text-decoration: none;
+    color: white;
+}
+
 .list {
     align-self: center;
+    color: white;
 }
 
 .first-section {
     display: flex;
+    margin: auto;
     align-items: center;
     font-size: 20px;
-    background: linear-gradient(217deg, rgba(0, 164, 170, 0.8), rgba(0, 0, 0, 0) 45.50%),
-    linear-gradient(336deg, rgba(5, 194, 194, 0.8), rgb(0, 0, 0, 255) 20.00%);
-    height: 500px;
+    background: linear-gradient(195deg, rgba(0, 42, 255, 0.801), rgba(12, 12, 12, 0) 20.00%),
+    linear-gradient(220deg, rgba(191, 0, 255, 0.842), rgba(12, 12, 12, 0.8) 22.00%),
+    linear-gradient(270deg, rgb(255, 0, 0), rgba(12, 12, 12, 0) 30.00%),
+    linear-gradient(330deg, rgb(72, 255, 0), rgba(12, 12, 12, 0.8) 50.00%);
+    height: 100vh;
     color: white;
     margin-top: 1.2px;
 }
 
 .paragraph-1 {
-    width: 50vw;
-    margin-left: 10px;
+    max-width: 1250px;
     text-shadow: 1px 1px 5px rgb(131, 131, 131);
     font-family: "Kanit";
     font-weight: 200;
+    text-align: center;
+    margin: auto;
 }
+
+
+.paragraph-1>h3 {
+    font-family: "Kanit";
+    color: white;
+    margin: auto;
+    font-weight: 400;
+    text-shadow: 1px 1px 3px rgb(131, 131, 131); 
+    border: 2px;
+    border-color: rgb(144, 144, 144);
+    border-bottom: 5px; 
+    border-style: groove;
+}
+
+.paragraph-1>p {
+    margin-top: 30px;
+}
+
+#projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Kanit';
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.project-1 {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    font-family: 'Kanit';
+    font-weight: 300;
+    width: auto;
+    background-color: rgb(231, 231, 231);
+}
+
+.project-1>p {
+    margin: auto;
+    max-width: 600px;
+}
+
+.project-1>h3 {
+    margin: auto;
+}
+
+.carousel-project1 {
+    display: flex;
+}
+
+.carousel-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 44px;
+    transition: all 0.25s ease-in;
+}
+
+.item {
+    scroll-snap-align: center;
+    height: 200px;
+    background-color: blue;
+    border-radius: 8px;
+    box-shadow: 25px black;
+    border-radius: 10%;
+}
+
+.carousel-view .item-list {
+    display: flex;
+    max-width: 400px;
+    padding: 50px 10px;
+    gap: 48px;
+    transition: all 0.25s ease-in;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    border: none;
+}
+
+.item-list::-webkit-scrollbar {
+    display: none;
+}
+
+.prev-btn {
+    border-radius: 55%;
+    font-size: 20px;
+    border: none;
+    background: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.next-btn {
+    border-radius: 55%;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    background: black;
+    width: 40px;
+    height: 40px;
+    color: white;
+}
+
+.next-btn:hover, .prev-btn:hover {
+    scale: 1.03;
+    transition: 0.15s ease-in;
+}
+
+
