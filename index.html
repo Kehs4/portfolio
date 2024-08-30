@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <script src="script.js"></script>
+    
 
 </head>
 <body>
@@ -19,12 +19,17 @@
         </div>
 
         <div class="list">
-            <a href="#projects"><span>Projetos</span></a>
-            <span>Contato</span>
+            <a href="#project"><span>Projetos</span></a>
+            <a href="#contact"><span>Contato</span></a>
         </div>
     </header>
 
     <section class="first-section">
+        
+        <div class="imgme">
+            <img class="imageme" src="img/me.jpeg" alt="Kleyton Holanda" srcset="" width="300" height="300">
+        </div>
+        
         <div class="paragraph-1">
             <h3>Apresentação</h3>
             <p>Desenvolvedor Web / UI/UX, com ênfase na criação e design de sites com a utilização das linguagens HTML5, CSS3, JavaScript, React, Angular, TypeScript, Python e Node.js. Também utilizo o Figma para criação e layouts de elementos nos projetos. Atualmente cursando o penúltimo semestre em Análise e Desenvolvimento de Sistemas na Universidade Cruzeiro do Sul - UNICSUL.</p>
@@ -32,17 +37,17 @@
 
     </section>
     
-    <section>
+    <section class="second-section">
        
-        <div id="projects">
+        <div id="project">
             <h2>Projetos</h2>
         </div>
 
-       <div class="project-1">
+       <div class="projects">
             <h3>Projeto Trampo</h3>
             <p>Projeto desenvolvido com 6 alunos da turma de Análise e Desenvolvimento de Sistemas onde atuei na criação das páginas, design e responsividade. Voltado para facilitar a contratação de funcionários autônomos no mercado criamos o Projeto Trampo, onde na plataforma poderiam ser inseridos os dados(Nome, Celular, E-mail, Imagens dos serviços feitos anteriormente pelos prestadores, valores e etc..), troca de mensagens, e formas de facilitar a vista e o entendimento do cliente gerando confiança no prestador autônomo.</p>
        
-            <div class="carousel-project1">
+            <div class="carousel-projecs">
                 <div class="carousel-view">
                     <button id="prev-btn" class="prev-btn">&#8592;</button>
                     
@@ -58,7 +63,45 @@
                 </div>
             </div>
         </div>
-               
+        
+        <div class="projects">
+            <h3>Template Login</h3>
+            <p>Template criado para uma tela de Login, sem funcionalidades.</p>
+       
+            <div class="carousel-projects">
+                <div class="carousel-view">
+                    <button id="prev-btn" class="prev-btn">&#8592;</button>
+                    
+                    <div id="item-list" class="item-list">
+                        <img id="item" class="item" src="img/logintemplate.png" alt="Página Inicial">
+                    </div>
+                    
+                    <button id="next-btn" class="next-btn">&#8594;</button>
+                </div>
+            </div>
+        </div>
+    
     </section>
+
+    <section class="third-section">
+        <div id="contact">
+            <h2>Contato</h2>
+        </div>
+
+        <div class="contacts">
+            <div class="contact-1">
+                <p>Fique a vontade para me enviar uma mensagem, e-mail, propostas nas seguintes formas de contatos abaixo:</p>
+                <p>Número: (11) 95903-2466</p>
+                <p>E-mail: kleytonholanda1@hotmail.com</p>
+            </div>
+
+            <div class="contact-2">
+                <h3>Redes Sociais</h3>
+            </div>
+        </div>
+
+    </section>
+    
+    <script src="script.js"></script>
 </body>
 </html>

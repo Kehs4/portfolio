@@ -8,12 +8,12 @@
 
 header {
     display: flex;
-    height: 120px;
+    height: 12vh;
     align-items: center;
     background-color: rgb(4, 74, 77);
     color: white;
     background-image: url(img/4k-programming-background-8e6i8yordu658363.png);
-    background-size: 100vw 600px;
+    background-size: 100vw 100vh;
     background-position: left;
 }
 
@@ -58,13 +58,24 @@ span {
     linear-gradient(220deg, rgba(191, 0, 255, 0.842), rgba(12, 12, 12, 0.8) 22.00%),
     linear-gradient(270deg, rgb(255, 0, 0), rgba(12, 12, 12, 0) 30.00%),
     linear-gradient(330deg, rgb(72, 255, 0), rgba(12, 12, 12, 0.8) 50.00%);
-    height: 100vh;
+    height: 99vh;
     color: white;
     margin-top: 1.2px;
 }
 
+.imgme {
+    margin: auto;
+}
+
+.imgme>.imageme {
+    border-radius: 100%;
+    box-shadow: 5px 5px 25px white;
+    object-fit: cover;
+   
+}
+
 .paragraph-1 {
-    max-width: 1250px;
+    max-width: 60vw;
     text-shadow: 1px 1px 5px rgb(131, 131, 131);
     font-family: "Kanit";
     font-weight: 200;
@@ -89,39 +100,52 @@ span {
     margin-top: 30px;
 }
 
-#projects {
+.first-section {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+#project {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 18px;
     font-family: 'Kanit';
     font-weight: 400;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    height: 15vh;
 }
 
 
-.project-1 {
+.projects {
     display: flex;
+    height: 50vh;
+    flex-wrap: nowrap;
     margin: auto;
     align-items: center;
     font-family: 'Kanit';
     font-weight: 300;
     width: auto;
     background-color: rgb(231, 231, 231);
+    margin-bottom: 5px;
 }
 
-.project-1>p {
-    margin: auto;
-    max-width: 600px;
-}
-
-.project-1>h3 {
+.projects>p {
+    max-width: 500px;
     margin: auto;
 }
 
-.carousel-project1 {
+.projects>h3 {
+    max-width: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+.carousel-projects {
     display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
 
 .carousel-view {
@@ -135,29 +159,18 @@ span {
 
 .item {
     scroll-snap-align: center;
+    scroll-snap-align: center;
     height: 200px;
-    background-color: blue;
-    border-radius: 8px;
     box-shadow: 25px black;
-    border-radius: 10%;
 }
 
-.carousel-view .item-list {
+.carousel-view>.item-list {
     display: flex;
     max-width: 400px;
-    padding: 50px 10px;
-    gap: 48px;
     transition: all 0.25s ease-in;
-    scroll-behavior: smooth;
     overflow: auto;
     scroll-snap-type: x mandatory;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
     border: none;
-}
-
-.item-list::-webkit-scrollbar {
-    display: none;
 }
 
 .prev-btn {
@@ -187,4 +200,40 @@ span {
     transition: 0.15s ease-in;
 }
 
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-family: 'Kanit';
+    font-weight: 400;
+    height: 15vh;
+}
 
+.contacts {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Kanit';
+    font-weight: 300;
+    background-color: rgb(231, 231, 231);
+}
+
+.contact-1 {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    max-width: 300px;
+    margin-top: 10px;
+}
+
+.contact-1>p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contact-2 {
+    margin: auto;
+    
+}

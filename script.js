@@ -8,6 +8,6 @@ prev.addEventListener('click', ()=>{
     list.scrollLeft -= (itemWidth + padding)
 })
 
-next.addEventListener('click' ()=>{
+next.addEventListener('click', ()=>{
     list.scrollLeft += (itemWidth + padding)
 })
