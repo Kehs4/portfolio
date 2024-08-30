@@ -8,35 +8,40 @@
 
 header {
     display: flex;
-    height: 12vh;
+    min-height: 13vh;
+    height: auto;
     align-items: center;
-    background-color: rgb(4, 74, 77);
+    background-color: rgb(106, 0, 155);
     color: white;
-    background-image: url(img/4k-programming-background-8e6i8yordu658363.png);
-    background-size: 100vw 100vh;
-    background-position: left;
+    border-bottom: 3px white;
+    border-style: solid;
+    border-left: none;
+    border-top: none;
+    border-right: none;
 }
 
 .first-h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 5vw;
-    margin-right: 65vw;
+    justify-content: center;
+    margin-left: 50px;
+    width: auto;
     font-size: 20px;
     font-family: "Kanit";
     font-weight: 100;
-    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.614);
+    text-shadow: 1px 1px 5px rgba(27, 25, 25, 0.614);
 }
 
 span {
-    margin-left: 10px;
+    margin-left: 15px;
     font-size: 22px;
-    font-family: "Bebas Neue";
-    font-weight: 100;
-    letter-spacing: 2px;
+    font-family: "Kanit";
+    font-weight: 400;
     text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.51);
     cursor: pointer;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.614);
+
 }
 
 .list>a {
@@ -47,6 +52,8 @@ span {
 .list {
     align-self: center;
     color: white;
+    margin-left: auto;
+    margin-right: 35px;
 }
 
 .first-section {
@@ -58,9 +65,10 @@ span {
     linear-gradient(220deg, rgba(191, 0, 255, 0.842), rgba(12, 12, 12, 0.8) 22.00%),
     linear-gradient(270deg, rgb(255, 0, 0), rgba(12, 12, 12, 0) 30.00%),
     linear-gradient(330deg, rgb(72, 255, 0), rgba(12, 12, 12, 0.8) 50.00%);
-    height: 99vh;
+    min-height: 99vh;
+    width: auto;
+    height: auto;
     color: white;
-    margin-top: 1.2px;
 }
 
 .imgme {
@@ -94,6 +102,7 @@ span {
     border-color: rgb(144, 144, 144);
     border-bottom: 5px; 
     border-style: groove;
+    box-shadow: 1px 1px 5px rgba(255, 255, 255, 0.496);
 }
 
 .paragraph-1>p {
@@ -104,6 +113,7 @@ span {
     display: flex;
     margin: auto;
     align-items: center;
+    box-shadow: 1px 2px 6px rgb(98, 98, 98);
 }
 
 #project {
@@ -114,12 +124,16 @@ span {
     font-family: 'Kanit';
     font-weight: 400;
     height: 15vh;
+    text-shadow: 1px 1px 3px rgba(152, 140, 140, 0.375);
+
 }
 
 
 .projects {
     display: flex;
-    height: 50vh;
+    min-height: 50vh;
+    max-width: 90vw;
+    height: auto;
     flex-wrap: nowrap;
     margin: auto;
     align-items: center;
@@ -128,22 +142,25 @@ span {
     width: auto;
     background-color: rgb(231, 231, 231);
     margin-bottom: 5px;
+    box-shadow: 1px 2px 5px gray;
 }
 
 .projects>p {
     max-width: 500px;
+    width: auto;
     margin: auto;
+    text-shadow: 1px 1px 1px rgba(89, 89, 89, 0.363);
 }
 
 .projects>h3 {
-    max-width: 150px;
+    margin-left: 25px;
     text-align: center;
     margin: auto;
+    text-shadow: 1px 1px 1px rgba(160, 160, 160, 0.578);
 }
 
 .carousel-projects {
     display: flex;
-    margin: auto;
     justify-content: center;
     align-items: center;
 }
@@ -208,6 +225,7 @@ span {
     font-family: 'Kanit';
     font-weight: 400;
     height: 15vh;
+    text-shadow: 1px 1px 3px rgba(152, 140, 140, 0.375);
 }
 
 .contacts {
@@ -217,7 +235,12 @@ span {
     justify-content: center;
     font-family: 'Kanit';
     font-weight: 300;
+    margin-top: 10px;
     background-color: rgb(231, 231, 231);
+    margin-bottom: 35px;
+    height: 225px;
+    max-width: 90vw;
+    box-shadow: 1px 2px 5px gray;
 }
 
 .contact-1 {
@@ -225,7 +248,30 @@ span {
     margin: auto;
     flex-direction: column;
     max-width: 300px;
-    margin-top: 10px;
+    justify-content: left;
+    font-family: 'Kanit';
+    font-weight: 300;
+    color: rgb(18, 18, 18);
+}
+
+.telephone {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.logowhatsapp {
+    margin-right: 5px;
+}
+
+.email {
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+
+.mailbox {
+    margin-right: 5px;
 }
 
 .contact-1>p {
@@ -235,5 +281,30 @@ span {
 
 .contact-2 {
     margin: auto;
-    
+    display: flex;
+    flex-direction: column;
+    font-family: 'Kanit';
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(18, 18, 18);
+}
+
+.mediaslogo {
+    margin: auto;
+    margin-top: 10px;
+    color: rgb(18, 18, 18);
+}
+
+.mediaslogo>a {
+    text-decoration: none;
+    color: rgb(18, 18, 18);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    font-family: "Bebas Neue";
+    font-size: 20px;
+    height: 60px;
 }
