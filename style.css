@@ -143,6 +143,7 @@ span {
     max-width: 700px;
     margin: 10px;
     text-shadow: 1px 1px 1px rgba(89, 89, 89, 0.363);
+    margin-right: 20px;
 }
 
 .projects>h3 {
@@ -173,6 +174,7 @@ span {
     height: 200px;
     box-shadow: 25px black;
     object-fit: cover;
+    max-width: 440px;
 }
 
 .carousel-view>.item-list {
@@ -181,8 +183,7 @@ span {
     max-width: 440px;
     height: 280px;
     transition: all 0.25s ease-in;
-    overflow: auto;
-    scroll-snap-type: x mandatory;
+    overflow: hidden;
     border: none;
     object-fit: contain;
 }
@@ -295,6 +296,10 @@ span {
 .mediaslogo>a {
     text-decoration: none;
     color: rgb(18, 18, 18);
+}
+
+.svgs {
+    display: inline;
 }
 
 footer {
