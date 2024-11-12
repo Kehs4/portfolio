@@ -55,7 +55,7 @@
     }
 
     .first-h1, span {
-        font-size: 19px;
+        font-size: 16px;
     }
     
     .imageme {
@@ -123,7 +123,7 @@
     }
 
     .first-h1, span {
-        font-size: 17px;
+        font-size: 15px;
     }
     
     .imageme {
@@ -221,6 +221,7 @@
     .first-section {
         display: flex;
         flex-direction: column;
+        height: 700px;
     }
     
     .imageme {
@@ -295,8 +296,8 @@
     }
 
     .carousel-projects, .item-list, .item {
-        height: 240px;
-        width: 500px;
+        height: 200px;
+        width: 80dvw;
     }
 
     .next-btn, .prev-btn {
@@ -318,7 +319,7 @@
 
     .carousel-projects, .item-list, .item {
         height: 240px;
-        width: 500px;
+        width: 80dvw;
     }
 
     .contacts {
@@ -341,8 +342,8 @@
     }
 
     .carousel-projects, .item-list, .item {
-        height: 180px;
-        width: 380px;
+        height: 200px;
+        width: 80dvw;
     }
 
     .next-btn, .prev-btn {
@@ -363,8 +364,8 @@
     }
 
     .carousel-projects, .item-list, .item {
-        height: 160px;
-        width: 360px;
+        height: 139px;
+        width: 65dvw;
     }
 
     .next-btn, .prev-btn {
@@ -380,9 +381,13 @@
         font-size: 13px;
     }
 
+    .projects {
+        height: 500px;
+    }
+
     .carousel-projects, .item-list, .item {
-        height: 100px;
-        width: 200px;
+        height: 106px;
+        width: 58dvw;
     }
 
     footer>p {

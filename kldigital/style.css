@@ -364,9 +364,6 @@ footer {
     flex-direction: column;
 }
 
-.footer-content-social {
-}
-
 .footer-content-social-a {
     display: flex;
     flex-direction: row;
