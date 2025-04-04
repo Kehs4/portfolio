@@ -54,7 +54,7 @@
         min-height: 9vh;
     }
 
-    .first-h1, span {
+    .first-h1, .btn-projects, .btn-contacts {
         font-size: 16px;
     }
     
@@ -73,10 +73,6 @@
     .carousel-projects, .item-list, .item {
         height: 170px;
         width: 340px;
-    }
-    .next-btn, .prev-btn {
-        width: 38px;
-        height: 38px;
     }
 }
 
@@ -110,10 +106,6 @@
         max-width: 450px;
     }
 
-    .next-btn, .prev-btn {
-        width: 38px;
-        height: 38px;
-    }
 }
 
 @media screen and (max-width: 1100px) { 
@@ -122,8 +114,12 @@
         min-height: 7vh;
     }
 
-    .first-h1, span {
+    .first-h1, .btn-contacts, .btn-projects {
         font-size: 15px;
+    }
+
+    .list {
+        margin-right: 80px;
     }
     
     .imageme {
@@ -168,10 +164,6 @@
         width: 280px;
     }
 
-    .next-btn, .prev-btn {
-        width: 36px;
-        height: 36px;
-    }
 }
 
 @media screen and (max-width: 1000px) {
@@ -202,10 +194,6 @@
         display: flex;
     }
 
-    .next-btn, .prev-btn {
-        width: 35px;
-        height: 35px;
-    }
 }
 
 @media screen and (max-width: 900px) { 
@@ -214,7 +202,7 @@
         min-height: 5vh;
     }
 
-    .first-h1, span {
+    .first-h1, .btn-projects, .btn-contacts {
         font-size: 13px;
     }
 
@@ -261,10 +249,6 @@
         display: flex;
     }
 
-    .next-btn, .prev-btn {
-        width: 32px;
-        height: 32px;
-    }
 }
 
 @media screen and (max-width: 835px) {
@@ -278,9 +262,8 @@
         font-size: 18px;
     }
 
-    .next-btn, .prev-btn {
-        width: 30px;
-        height: 30px;
+    .list {
+        margin-right: 50px;
     }
 }
 
@@ -300,9 +283,10 @@
         width: 80dvw;
     }
 
-    .next-btn, .prev-btn {
-        width: 28px;
-        height: 28px;
+    footer {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 0;
     }
 } 
 
@@ -328,9 +312,18 @@
         height: 300px;
     }
 
-    .next-btn, .prev-btn {
-        width: 25px;
-        height: 25px;
+    .header {
+        justify-content: center;
+    }
+
+    .first-h1 {
+        margin-right: 50px;
+    }
+
+    .btn-contacts, .btn-projects{
+        width: 80px;
+        font-size: 15px;
+        margin-right: -15px;
     }
 } 
 
@@ -346,9 +339,8 @@
         width: 80dvw;
     }
 
-    .next-btn, .prev-btn {
-        width: 22px;
-        height: 22px;
+    .list {
+        margin-right: 20px;
     }
 }
 
@@ -368,10 +360,6 @@
         width: 65dvw;
     }
 
-    .next-btn, .prev-btn {
-        width: 20px;
-        height: 20px;
-    }
 }
 
 @media screen and (max-width: 450px) {
